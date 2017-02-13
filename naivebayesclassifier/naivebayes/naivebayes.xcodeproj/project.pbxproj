@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3D56F151E4916F8007150A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3D56F141E4916F8007150A1 /* main.cpp */; };
+		D3D56F1D1E49187E007150A1 /* NaiveBayes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3D56F1B1E49187E007150A1 /* NaiveBayes.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3D56F0F1E4916F8007150A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D3351ED81E4BC98A00FDC6EE /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		D3351ED91E4BCB2F00FDC6EE /* strtk.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = strtk.hpp; sourceTree = "<group>"; };
+		D3D56F111E4916F8007150A1 /* naivebayes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = naivebayes; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D56F141E4916F8007150A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D3D56F1B1E49187E007150A1 /* NaiveBayes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveBayes.cpp; sourceTree = "<group>"; };
+		D3D56F1C1E49187E007150A1 /* NaiveBayes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NaiveBayes.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D56F0E1E4916F8007150A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3351EDA1E4BCB3600FDC6EE /* strtk */ = {
+			isa = PBXGroup;
+			children = (
+				D3351ED91E4BCB2F00FDC6EE /* strtk.hpp */,
+			);
+			name = strtk;
+			sourceTree = "<group>";
+		};
+		D3D56F081E4916F8007150A1 = {
+			isa = PBXGroup;
+			children = (
+				D3D56F131E4916F8007150A1 /* naivebayes */,
+				D3D56F121E4916F8007150A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D56F121E4916F8007150A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D56F111E4916F8007150A1 /* naivebayes */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D56F131E4916F8007150A1 /* naivebayes */ = {
+			isa = PBXGroup;
+			children = (
+				D3351EDA1E4BCB3600FDC6EE /* strtk */,
+				D3D56F141E4916F8007150A1 /* main.cpp */,
+				D3D56F1C1E49187E007150A1 /* NaiveBayes.hpp */,
+				D3D56F1B1E49187E007150A1 /* NaiveBayes.cpp */,
+				D3351ED81E4BC98A00FDC6EE /* Readme */,
+			);
+			path = naivebayes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D56F101E4916F8007150A1 /* naivebayes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D56F181E4916F8007150A1 /* Build configuration list for PBXNativeTarget "naivebayes" */;
+			buildPhases = (
+				D3D56F0D1E4916F8007150A1 /* Sources */,
+				D3D56F0E1E4916F8007150A1 /* Frameworks */,
+				D3D56F0F1E4916F8007150A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = naivebayes;
+			productName = asn1ex6;
+			productReference = D3D56F111E4916F8007150A1 /* naivebayes */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D56F091E4916F8007150A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Brian Desnoyers";
+				TargetAttributes = {
+					D3D56F101E4916F8007150A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A9VFLB3UJS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D3D56F0C1E4916F8007150A1 /* Build configuration list for PBXProject "naivebayes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3D56F081E4916F8007150A1;
+			productRefGroup = D3D56F121E4916F8007150A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D56F101E4916F8007150A1 /* naivebayes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D56F0D1E4916F8007150A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D56F151E4916F8007150A1 /* main.cpp in Sources */,
+				D3D56F1D1E49187E007150A1 /* NaiveBayes.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3D56F161E4916F8007150A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D3D56F171E4916F8007150A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D3D56F191E4916F8007150A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A9VFLB3UJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3D56F1A1E4916F8007150A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A9VFLB3UJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D56F0C1E4916F8007150A1 /* Build configuration list for PBXProject "naivebayes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D56F161E4916F8007150A1 /* Debug */,
+				D3D56F171E4916F8007150A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D56F181E4916F8007150A1 /* Build configuration list for PBXNativeTarget "naivebayes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D56F191E4916F8007150A1 /* Debug */,
+				D3D56F1A1E4916F8007150A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D56F091E4916F8007150A1 /* Project object */;
+}

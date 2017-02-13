@@ -1,0 +1,10 @@
+To run the classifier for income prediction:
+
+1.  Compile:
+      clang++ -std=gnu++11 -stdlib=libc++ strtk.hpp NaiveBayes.hpp NaiveBayes.cpp main.cpp
+
+2.  Execute
+      ./a.out [path_to_training_set] [path_to_test_set]
+
+    ex: with training and test data in same folder:
+      ./a.out adult.data adult.test

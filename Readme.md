@@ -7,3 +7,4 @@ I am currently working on implementing a small collection of machine learning ag
 * [Perceptron Classifier](/perceptron) (C++)
 * [SVM w/ Simplified SMO Algorithm](/svm) (C++)
 * [Multilayer Perceptron w/ Single Hidden Layer](/mlp) (C++)
+* Hidden Markov Model (In Progress)

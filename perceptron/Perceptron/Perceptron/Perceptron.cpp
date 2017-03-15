@@ -156,19 +156,3 @@ void DualPerceptron::train(vector<vector<double>> x, vector<int> y) {
     }
   }
 }
-
-vector<double> DualPerceptron::getWeights() {
-  return this->w;
-}
-
-vector<double> DualPerceptron::getNormalizedWeights() {
-  vector<double> normWeights = this->w;
-  for (int i = 0; i < normWeights.size(); i++) {
-    normWeights[i] /= -this->b;
-  }
-  return normWeights;
-}
-
-double DualPerceptron::getBias() {
-  return this->b;
-}

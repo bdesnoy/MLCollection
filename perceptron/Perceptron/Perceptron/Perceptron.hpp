@@ -55,8 +55,8 @@ double laplacianKernel(vector<double> v1, vector<double> v2);
  A single-node perceptron class using the primal form.
  */
 class Perceptron {
-private:
-  // the weight vector
+protected:
+  // the weight vector, for the dual form Perceptron, this is calcualted after all of training
   vector<double> w;
   // the bias
   double b;
@@ -64,50 +64,49 @@ private:
 public:
   /**
    Trains the perceptron with features 'x' and labels 'y'.
-
+   
    @param x the features to train
    @param y the corresponding labels
    */
-  void train(vector<vector<double>> x, vector<int> y);
+  virtual void train(vector<vector<double>> x, vector<int> y);
   
   /**
-   Returns the weights after training.
-
+   Returns the weights after training. 
+   Note: This should be called only after training a model.
+   
    @return the weights after training.
    */
   vector<double> getWeights();
   
   /**
    Returns the normalized weights calculated by dividing by the bias (w_0).
-
+   Note: This should be called only after training a model.
+   
    @return the normalized weights
    */
   vector<double> getNormalizedWeights();
   
   /**
    Returns the bias after training.
-
+   Note: This should be called only after training a model.
+   
    @return the bias after training
    */
   double getBias();
 };
 
+
 /**
  A single-node perceptron class using the dual form (kernelized).
  */
-class DualPerceptron {
+class DualPerceptron: public Perceptron {
 private:
   // the vector of counts
   vector<double> m;
-  // the weight vector- calculated after training
-  vector<double> w;
-  // the bias
-  double b;
   // the kernel function
   function<double(vector<double>, vector<double>)> kernel;
   
 public:
-  
   /**
    Initializes a kernelized perceptron with the kernel `kernel`.
    
@@ -123,28 +122,6 @@ public:
    */
   void train(vector<vector<double>> x, vector<int> y);
   
-  /**
-   Returns the weights after training.
-   
-   @return the weights after training.
-   */
-  vector<double> getWeights();
-  
-  
-  /**
-   Returns the normalized weights calculated by dividing by the bias (w_0).
-   
-   @return the normalized weights
-   */
-  vector<double> getNormalizedWeights();
-  
-  
-  /**
-   Returns the bias after training.
-   
-   @return the bias after training
-   */
-  double getBias();
 };
 
 #endif /* Perceptron_hpp */

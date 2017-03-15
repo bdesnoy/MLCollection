@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3D4B4011E5F9B1A0074757D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3D4B4001E5F9B1A0074757D /* main.cpp */; };
+		D3D4B40B1E5FB17C0074757D /* Perceptron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3D4B4091E5FB17C0074757D /* Perceptron.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3D4B3FB1E5F9B1A0074757D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D3D4B3FD1E5F9B1A0074757D /* Perceptron */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Perceptron; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D4B4001E5F9B1A0074757D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D3D4B4071E5F9B5F0074757D /* strtk.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = strtk.hpp; sourceTree = "<group>"; };
+		D3D4B4091E5FB17C0074757D /* Perceptron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Perceptron.cpp; path = Perceptron/Perceptron.cpp; sourceTree = SOURCE_ROOT; };
+		D3D4B40A1E5FB17C0074757D /* Perceptron.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Perceptron.hpp; path = Perceptron/Perceptron.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D4B3FA1E5F9B1A0074757D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3D4B3F41E5F9B1A0074757D = {
+			isa = PBXGroup;
+			children = (
+				D3D4B3FF1E5F9B1A0074757D /* Perceptron */,
+				D3D4B3FE1E5F9B1A0074757D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D4B3FE1E5F9B1A0074757D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4B3FD1E5F9B1A0074757D /* Perceptron */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D4B3FF1E5F9B1A0074757D /* Perceptron */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4B4081E5F9B660074757D /* STRTK */,
+				D3D4B4001E5F9B1A0074757D /* main.cpp */,
+				D3D4B40A1E5FB17C0074757D /* Perceptron.hpp */,
+				D3D4B4091E5FB17C0074757D /* Perceptron.cpp */,
+			);
+			path = Perceptron;
+			sourceTree = "<group>";
+		};
+		D3D4B4081E5F9B660074757D /* STRTK */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4B4071E5F9B5F0074757D /* strtk.hpp */,
+			);
+			name = STRTK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D4B3FC1E5F9B1A0074757D /* Perceptron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D4B4041E5F9B1A0074757D /* Build configuration list for PBXNativeTarget "Perceptron" */;
+			buildPhases = (
+				D3D4B3F91E5F9B1A0074757D /* Sources */,
+				D3D4B3FA1E5F9B1A0074757D /* Frameworks */,
+				D3D4B3FB1E5F9B1A0074757D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Perceptron;
+			productName = Perceptron;
+			productReference = D3D4B3FD1E5F9B1A0074757D /* Perceptron */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D4B3F51E5F9B1A0074757D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Brian Desnoyers";
+				TargetAttributes = {
+					D3D4B3FC1E5F9B1A0074757D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A9VFLB3UJS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D3D4B3F81E5F9B1A0074757D /* Build configuration list for PBXProject "Perceptron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3D4B3F41E5F9B1A0074757D;
+			productRefGroup = D3D4B3FE1E5F9B1A0074757D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D4B3FC1E5F9B1A0074757D /* Perceptron */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D4B3F91E5F9B1A0074757D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4B4011E5F9B1A0074757D /* main.cpp in Sources */,
+				D3D4B40B1E5FB17C0074757D /* Perceptron.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3D4B4021E5F9B1A0074757D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D3D4B4031E5F9B1A0074757D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D3D4B4051E5F9B1A0074757D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A9VFLB3UJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3D4B4061E5F9B1A0074757D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A9VFLB3UJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D4B3F81E5F9B1A0074757D /* Build configuration list for PBXProject "Perceptron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D4B4021E5F9B1A0074757D /* Debug */,
+				D3D4B4031E5F9B1A0074757D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D4B4041E5F9B1A0074757D /* Build configuration list for PBXNativeTarget "Perceptron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D4B4051E5F9B1A0074757D /* Debug */,
+				D3D4B4061E5F9B1A0074757D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D4B3F51E5F9B1A0074757D /* Project object */;
+}
